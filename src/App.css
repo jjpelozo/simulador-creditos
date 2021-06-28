@@ -1,0 +1,69 @@
+
+.app {
+  background-color: #1e4f93;
+}
+
+.input {
+  background-color: #1e4f93;
+  border: none;
+  color: white;
+  padding: 5px;
+  outline-width: 0;
+  text-align: center;
+  font-weight: 900;
+}
+
+.form {
+  border: solid 1px white;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.slider {
+  width: 95%;
+  margin: auto;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.button__credito {
+  background-color: #358285;
+  width: 100%;
+  height: 50px;
+  border: none;
+  color: white;
+  font-weight: 900;
+}
+
+.button__cuotas {
+  background-color: #20538b;
+  width: 100%;
+  height: 40px;
+  border: none;
+  color: white;
+  font-weight: 900;
+}
+
+.info {
+  background-color: #153c68;
+}
+.payments {
+  height: auto;
+}
+
+.detallePagos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
